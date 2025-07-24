@@ -5,7 +5,7 @@ import { BriefcaseIcon } from 'lucide-react';
 
 const experiences = [
   {
-    title: 'Jr. QA Engineer',
+    title: 'QA Engineer',
     company: 'Outlier',
     period: '2025 - Presente',
     description: [
