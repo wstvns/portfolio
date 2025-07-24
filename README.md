@@ -1,8 +1,8 @@
 # Portfolio Pessoal
 
-Um portfólio moderno e interativo construído com Next.js, TypeScript, Tailwind CSS e Framer Motion. Apresenta um design elegante com efeitos de partículas interativas e animações suaves.
+Criei este portfolio para mostrar meus projetos e habilidades. Usei Next.js, TypeScript e Tailwind CSS.
 
-## ✨ Demonstração Visual
+## Demonstração Visual
 
 Abaixo algumas telas do projeto:
 
@@ -12,7 +12,7 @@ Abaixo algumas telas do projeto:
   <img src="public/assets/foot.png" alt="Rodapé" width="700" />
 </p>
 
-## 🚀 Características
+## Características
 
 - Design responsivo e moderno
 - Efeito de partículas interativas com tsParticles
@@ -23,7 +23,7 @@ Abaixo algumas telas do projeto:
 - Otimizado para SEO
 - Totalmente tipado com TypeScript
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Framework**: Next.js 14
 - **Linguagem**: TypeScript
@@ -35,47 +35,36 @@ Abaixo algumas telas do projeto:
 - **Formatação**: Prettier
 - **Linting**: ESLint
 
-## 📋 Requisitos
+## Requisitos
 
-- Node.js 18.17.0 ou superior
+- Node.js 18.17 ou superior
 - npm ou yarn
 
-## 📦 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 portfolio/
-├── app/                # Código principal da aplicação
-│   ├── components/     # Componentes reutilizáveis e seções
-│   ├── layout.tsx      # Layout global da aplicação
-│   └── page.tsx        # Página principal
-├── public/             # Imagens e arquivos
-│   └── assets/         # Prints e imagens customizadas
-├── styles/             # Estilos globais (Tailwind)
+├── app/              
+│   ├── components/    
+│   ├── layout.tsx      
+│   └── page.tsx        
+├── public/             
+│   └── assets/         
+├── styles/             
 │   └── globals.css
-├── types/              # Tipos TypeScript customizados
+├── types/              
 │   └── index.d.ts
-├── next.config.js      # Configuração do Next.js
-├── tailwind.config.ts  # Configuração do Tailwind CSS
-├── tsconfig.json       # Configuração do TypeScript
-└── package.json        # Dependências e scripts
+├── next.config.js
+├── tailwind.config.ts 
+├── tsconfig.json
+└── package.json
 ```
 
-### Descrição dos principais arquivos/pastas
-
-- `app/components/` — Componentes de interface e seções do portfólio
-- `app/page.tsx` — Página principal, monta a ordem das seções
-- `app/layout.tsx` — Layout global, inclui estilos e provedores
-- `public/assets/` — Imagens e prints do projeto
-- `styles/globals.css` — Estilos globais customizados
-- `types/` — Tipos TypeScript auxiliares
-- `next.config.js` — Configuração do Next.js
-- `tailwind.config.ts` — Configuração do Tailwind CSS
-
-## 🚀 Como Executar
+## Como Executar
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/wstvns/portfolio.git
+   git clone https://github.com/wstvns/portfolio
    cd portfolio
    ```
 
@@ -91,7 +80,7 @@ portfolio/
 
 4. Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
 
-## 📝 Scripts Disponíveis
+## Scripts Disponíveis
 
 - `npm run dev` - Inicia o servidor de desenvolvimento
 - `npm run build` - Cria a versão de produção
@@ -100,7 +89,7 @@ portfolio/
 - `npm run format` - Formata os arquivos com Prettier
 - `npm run type-check` - Verifica os tipos TypeScript
 
-## 🔧 Configuração
+## Configuração
 
 ### Configuração do TypeScript
 
@@ -122,14 +111,14 @@ O projeto usa uma configuração TypeScript otimizada para Next.js 14:
 2. **Partículas**: Ajuste a configuração em `components/ParticlesBackground.tsx`
 3. **Conteúdo**: Atualize os componentes em `app/components/` com suas informações
 
-## 📱 Responsividade
+## Responsividade
 
 O site é totalmente responsivo e otimizado para:
 - Dispositivos móveis (< 768px)
 - Tablets (768px - 1024px)
 - Desktop (> 1024px)
 
-## 🎨 Design System
+## Design System
 
 ### Cores
 - **Primary**: #A855F7 (Roxo)
@@ -143,23 +132,8 @@ O site é totalmente responsivo e otimizado para:
 - **Corpo**: Sistema de fontes sans-serif
 - **Tamanhos**: Escala personalizada via Tailwind
 
-## 🔍 SEO e Performance
 
-- Meta tags otimizadas
-- Imagens otimizadas
-- Carregamento lazy de componentes
-- Código dividido automaticamente
-- Pontuação alta no Lighthouse
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas!
-
-## 📄 Licença
-
-`MIT`
-
-## 👤 Suporte e Contato
+## Suporte e Contato
 
 
 - **GitHub**: [@wstvns](https://github.com/wstvns)
