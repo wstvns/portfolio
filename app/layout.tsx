@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import { ClientProviders } from './components/ClientProviders'
 import { Contact } from './components/Contact'
 import ScrollToTop from './components/ScrollToTop'
+import { Analytics } from "@vercel/analytics/next" // vercel analytics
 // import TopMenu from './components/TopMenu'
 
 const inter = Inter({
@@ -29,6 +30,7 @@ export default function RootLayout({
           <ScrollToTop />
         </main>
         <Contact />
+        <Analytics />        
       </body>
     </html>
   )
