@@ -14,6 +14,9 @@ const inter = Inter({
 export const metadata = {
   title: 'Wallisson Stevan - Desenvolvedor Full Stack',
   description: 'Desenvolvedor Full Stack apaixonado por tecnologia e inovação.',
+  icons: {
+    icon: '/favicon.svg',
+  }
 }
 
 export default function RootLayout({
