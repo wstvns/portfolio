@@ -22,18 +22,7 @@ const socialLinks = [
     url: 'mailto:wstevandev@gmail.com',
     color: 'accent',
   },
-  {
-    name: 'Telefone',
-    icon: Phone,
-    url: 'tel:+5562991334886',
-    color: 'primary',
-  },
-  {
-    name: 'Localização',
-    icon: MapPin,
-    url: 'https://maps.google.com/?q=Goiânia,GO',
-    color: 'secondary',
-  },
+  
 ];
 
 export const Contact = () => {
