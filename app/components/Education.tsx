@@ -66,7 +66,7 @@ export const Education = () => {
 						<motion.div key={index} variants={item} className="relative">
 							<div className="card group p-8">
 								<div className="absolute -top-3 right-8">
-									<div className="px-4 py-1 bg-primary/10 rounded-full border border-primary/20 flex items-center gap-2">
+									<div className="px-4 py-1 bg-primary/10 backdrop-blur-sm rounded-full border border-primary/20 flex items-center gap-2">
 										<Clock className="w-4 h-4 text-primary" />
 										<span className="text-sm text-primary">{edu.status}</span>
 									</div>
