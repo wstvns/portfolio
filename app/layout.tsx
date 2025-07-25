@@ -2,6 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import { ClientProviders } from './components/ClientProviders'
 import { Contact } from './components/Contact'
+import ScrollToTop from './components/ScrollToTop'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -10,7 +11,7 @@ const inter = Inter({
 
 export const metadata = {
   title: 'Wallisson Stevan - Desenvolvedor Full Stack',
-  description: 'Desenvolvedor Full Stack apaixonado por tecnologia e inovação, com foco em criar soluções que impactam positivamente a vida das pessoas.',
+  description: 'Desenvolvedor Full Stack apaixonado por tecnologia e inovação.',
 }
 
 export default function RootLayout({
@@ -24,6 +25,7 @@ export default function RootLayout({
         <ClientProviders />
         <main className="relative z-10 flex-grow">
           {children}
+          <ScrollToTop />
         </main>
         <Contact />
       </body>
