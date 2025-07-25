@@ -31,7 +31,9 @@ interface GithubRepo {
 
 const featuredProjects = [
   'YouText',
-  'chatbot-juridico',
+  'Juris_chatBot',
+  'portfolio',
+  'crud_api',
 ];
 
 const container = {
@@ -115,7 +117,7 @@ export const Projects = () => {
             {[...Array(4)].map((_, i) => (
               <div
                 key={i}
-                className="bg-background/50 border border-muted/10 rounded-lg p-6 animate-pulse"
+                className="card animate-pulse"
               >
                 <div className="h-6 bg-muted/10 rounded w-3/4 mb-4" />
                 <div className="h-4 bg-muted/10 rounded w-full mb-2" />
@@ -135,7 +137,7 @@ export const Projects = () => {
               <motion.div
                 key={repo.name}
                 variants={item}
-                className="group relative bg-background/50 border border-muted/10 rounded-lg p-6 hover:border-primary/20 transition-all duration-300"
+                className="card group relative transition-all duration-300"
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-secondary/5 to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg" />
                 
@@ -206,4 +208,4 @@ export const Projects = () => {
   );
 };
 
-export default Projects; 
+export default Projects;

@@ -7,7 +7,7 @@ const experiences = [
   {
     title: 'QA Engineer',
     company: 'Outlier',
-    period: '2025 - Presente',
+    period: '01/2025 - 07/2025',
     description: [
       'Garantia da qualidade de software por meio de testes automatizados e manuais',
       'Automação com Python (Pytest, Selenium) e JavaScript (Playwright, Cypress)',
@@ -94,7 +94,7 @@ export const Experience = () => {
 
               {/* Content */}
               <div className={`flex-1 ${index % 2 === 0 ? 'md:text-right' : ''}`}>
-                <div className="bg-background/50 border border-muted/10 rounded-lg p-6 hover:border-primary/20 transition-colors">
+                <div className="card transition-colors">
                   <div className="flex items-center gap-2 mb-2">
                     <BriefcaseIcon className="w-5 h-5 text-primary" />
                     <h3 className="text-xl font-semibold text-foreground">{exp.title}</h3>
@@ -119,4 +119,4 @@ export const Experience = () => {
   );
 };
 
-export default Experience; 
+export default Experience;

@@ -31,7 +31,7 @@
   }
 
   .card {
-    @apply bg-background/50 border border-muted/10 rounded-lg p-6 hover:border-primary/20 transition-all;
+    @apply bg-background/50 border border-muted/20 rounded-lg p-6 hover:border-primary/50 transition-all;
   }
 
   .button {
@@ -47,7 +47,7 @@
   }
 }
 
-/* Custom scrollbar */
+/* Custom scrollbar - Chrome, Safari, Edge */
 ::-webkit-scrollbar {
   @apply w-2;
 }
@@ -58,6 +58,12 @@
 
 ::-webkit-scrollbar-thumb {
   @apply bg-primary/50 rounded-full hover:bg-primary/70 transition-colors;
+}
+
+/* Custom scrollbar - Firefox */
+* {
+  scrollbar-width: thick;
+  scrollbar-color: var(--primary) transparent;
 }
 
 /* Animations */
@@ -131,5 +137,5 @@
 /* Hide scrollbar for IE, Edge and Firefox */
 .no-scrollbar {
   -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-} 
+  scrollbar-width: none;     /* Firefox */
+}

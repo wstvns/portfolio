@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import { ClientProviders } from './components/ClientProviders'
 import { Contact } from './components/Contact'
 import ScrollToTop from './components/ScrollToTop'
+// import TopMenu from './components/TopMenu'
 
 const inter = Inter({
   subsets: ['latin'],
