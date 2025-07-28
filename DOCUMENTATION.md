@@ -266,4 +266,4 @@ describe('Hero Component', () => {
 4. Modo claro/escuro // isso aqui vai ser dificil de implementar por conta do esquema de cores.
 5. Blog integration 
 6. Menu interativo no top
-7. Seta para subir ao topo
+7. Seta para subir ao topo - feito ✅
