@@ -7,7 +7,6 @@ const skills = [
   { name: 'TypeScript', icon: '⌨️' },
   { name: 'JavaScript', icon: '🟨' },
   { name: 'Python', icon: '🐍' },
-  { name: 'Go', icon: '🔵' },
   { name: 'React.js', icon: '⚛️' },
   { name: 'Next.js', icon: '▲' },
   { name: 'FastAPI', icon: '⚡' },
